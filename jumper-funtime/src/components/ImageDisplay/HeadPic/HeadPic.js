@@ -10,9 +10,12 @@ import lani from "./lani.png";
 import patrick from "./p-stew.png";
 import stephanie from "./stephanie.png";
 import victoria from "./victoria.png";
+import useFetch from "../../../Hooks/useFetch";
 
 function Headpic() {
   const [image, setImage] = useState(fardosa);
+
+  return <img src={image} alt="bootcamper" />;
 }
 
 export default Headpic;
