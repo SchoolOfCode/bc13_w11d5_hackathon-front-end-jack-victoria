@@ -7,6 +7,7 @@ export default function ImagesDisplay() {
     // const [number, generateRandom] = useRandomNumber(min, max);
     const [headState, setHeadState] = useState("")
     const [jumperState, setJumperState] = useState("")
+    const max = 9
     
     function handleClickJumper(max) {
         const [,, generateRandom] = useRandomNumber(max)
