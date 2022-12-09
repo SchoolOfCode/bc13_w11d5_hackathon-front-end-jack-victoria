@@ -1,6 +1,6 @@
 import {useState} from "react"
 
-export function useRandomNumber(min = 0, max = 100){
+export default function useRandomNumber(min = 0, max = 100){
     const [number, setNumber] = useState(0);
 
         function generateRandom(){

@@ -4,8 +4,6 @@ import ToggleButton from "./components/ToggleButton/ToggleButton";
 
 function App() {
 
-  
-
 
   return (
     <div>
