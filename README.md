@@ -72,3 +72,22 @@ Create an GROTTO or NOTTO app for rating christmas jumper drips.
         -toggleButton
         -instructions
 
+
+
+
+
+// PLAN!
+
+- set up 'handleClick' functions for each button - in this function there will be: use randomiser hook, use fetch hook kwith number generated from randomizer, and then set the jumper/head reference ID state. Pass this down to each button as its handleclick
+
+- set up conditional rendering in:
+    - jumper card just render an image with the URL that's passed down through state
+    - head card - render the specific image HEAD stored in the image file that corresponds with the HEAD, passed down through the HEAD state
+
+- Make sure the fetches are directed to the correct router on the backend
+
+- deploy front end
+
+- deploy backend 
+
+- crack open a cold one gang you all deserve it!!!
