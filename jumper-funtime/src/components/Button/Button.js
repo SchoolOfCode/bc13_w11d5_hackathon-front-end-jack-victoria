@@ -1,6 +1,13 @@
-export default function Button(){
+import useRandomNumber from "../../Hooks/useRandomNumber";
 
-    return (
-        <button onchange="#"> Get New X </button>
-    )
+// BUTTON needs the folowing props when called: MAXIMUM , NAME (head/jumper)
+export default function Button({ serving, max }) {
+  
+
+
+  return (
+    <button onClick={handleClick} max={max}>
+      Get New {serving}
+    </button>
+  );
 }

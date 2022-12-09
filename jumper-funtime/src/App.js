@@ -6,10 +6,13 @@ import Button from "./components/Button/Button";
 import ToggleButton from "./components/ToggleButton/ToggleButton";
 
 function App() {
+
   return (
     <div className="App">
       <Header></Header>
       <Instructions></Instructions>
+        <Button serving="head" max = "9"/>
+    <Button serving="jumper" max = "9"/> 
     </div>
   );
 }
