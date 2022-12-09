@@ -1,6 +1,6 @@
 import useState from "react"
 
- export default async function getData() {
+ export default async function useFetch(url) {
     [output, setOutput] = useState(null);
 
       const response = await fetch(url, {
