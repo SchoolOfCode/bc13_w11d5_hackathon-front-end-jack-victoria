@@ -1,7 +1,7 @@
-import useState from "react";
+import { useState } from "react";
 
 export default async function useFetch(url) {
-  [image, setImage] = useState(null);
+  const [image, setImage] = useState(null);
 
   const response = await fetch(url);
 
