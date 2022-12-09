@@ -8,11 +8,11 @@ function App() {
   return (
     <div>
       <h1 className="App-logo">JUMPER FUNTIME! (spinning in progress) </h1>;
-      {/* <ImageDisplay/>
-  <Button/>
-  <Button/>
+      <ImageDisplay/>
+  <Button serving="head" max = "9"/>
+  <Button serving="jumper" max = "9"/>
   <Instructions/>
-  <ToggleButton/> */}
+  <ToggleButton/>
     </div>
   );
 }
