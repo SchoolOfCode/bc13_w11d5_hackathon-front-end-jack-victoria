@@ -11,3 +11,64 @@ Start simple and get your first iteration MVP of your app working as your first 
 - Deployed front and back ends that talk to each other
 - Use of the `useContext` hook somewhere in your app
 - Use of at least one custom hook somewhere in your app
+
+
+## PLAN ## 
+
+Create an GROTTO or NOTTO app for rating christmas jumper drips.
+
+#BACKEND
+    - Make a database 
+    - Set up database with simple tables: 
+        - JUMPERS: ID, and image URL of a christmas jumper and numeric IDs.
+        - BOOTCAMPERS: list of names of bootcampers and numeric IDs.
+
+    - ***Get pic of Gabe*** and a couple of other bootcampers 
+    - set up backend:
+        - 'get by ID' request route handler to backend that retrieves a jumper image by id
+        - A second one sent to a different rout? e.g. api/heads
+        The necessary models
+        - deploy it on RENDER
+
+#FRONTEND
+    - Get images of bootcampers/people and store them in the front end
+     - GENERATE RANDOM NUMBER hook - this will pick a number that gets sent to the API. This goes into handlechange (?)
+    - Create button: get new jumper - this sends getByID request (using random number) to the backend and returns a random jumper image
+    - Create button: get new person - this sends getByID request to the backend (using random number) and returns a random person NAME. Which will conditionally render an image using the pictures stored in the front end
+    - Create button: toggle theme
+    - UseContext to add toggleable theme - XMAS STYLE BABYY
+    - Deploy front end
+    - Set up theme toggle - USECONTEXT - red font and a festive border on all the headings
+    - CSS
+    - stretch: make API fetch custom hook
+    - user stories
+   
+    CUSTOM HOOKS: number generator, and fetch
+    USE CONTEXT: theme toggle
+
+
+    APP
+
+        #HEADER
+
+        #IMAGE-DISPLAY
+
+            #HEAD-PIC
+                useState: head (stretch goal: put this in a custom hook!)
+            #JUMPER-PIC
+                useState: jumper (stretch goal: put this in a custom hook!)
+
+        #HEAD-BUTTON
+        #JUMPER-BUTTON
+
+        #TOGGLE-THEME-BUTTON
+
+    COMPONENTS:
+        -app
+        -header
+        -imageDisplay
+        -image
+        -gameButton
+        -toggleButton
+        -instructions
+
