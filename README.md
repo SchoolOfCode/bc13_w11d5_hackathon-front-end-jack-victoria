@@ -73,9 +73,6 @@ Create an GROTTO or NOTTO app for rating christmas jumper drips.
         -instructions
 
 
-
-
-
 // PLAN!
 
 - set up 'handleClick' functions for each button - in this function there will be: use randomiser hook, use fetch hook kwith number generated from randomizer, and then set the jumper/head reference ID state. Pass this down to each button as its handleclick
