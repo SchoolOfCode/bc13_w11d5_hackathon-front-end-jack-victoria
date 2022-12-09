@@ -1,7 +1,14 @@
 import "./App.css";
+import Header from "./components/Header/Header";
+import Instructions from "./components/Instructions/Instructions";
 
 function App() {
-  return <h1 className="App-logo">JUMPER FUNTIME! (spinning in progress) </h1>;
+  return (
+    <div className="App">
+      <Header></Header>
+      <Instructions></Instructions>
+    </div>
+  );
 }
 
 export default App;
